@@ -44,7 +44,7 @@ export default function ChatHeader({
             <option value="" disabled className="bg-slate-800 text-gray-300">
               Select a course
             </option>
-            {availableCourses.map((course) => (
+            {/* {availableCourses.map((course) => (
               <option
                 key={course.id}
                 value={course.id}
@@ -52,7 +52,7 @@ export default function ChatHeader({
               >
                 {course.title} ({course.videoCount} videos)
               </option>
-            ))}
+            ))} */}
           </select>
 
           {/* Custom dropdown arrow */}
