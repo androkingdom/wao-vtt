@@ -14,6 +14,6 @@ export const AI_MODELS = {
   // For final answer generation → synthesize context into response
   generator: {
     provider: "gemini",
-    model: "gemini-2.5-pro",
+    model: "gemini-2.5-flash",
   },
 };

@@ -8,6 +8,7 @@ FileService.configure({ maxSizeMB: 10 });
 export async function POST(req) {
   const formData = await req.formData();
   const files = formData.getAll("files");
+  return;
 
   const savedJsonPaths = [];
 

@@ -7,6 +7,7 @@ export async function POST(req) {
   try {
     const { message, courseId } = await req.json();
     console.log("Retrieving context...");
+    return;
     const query = await QueryRewriter.rewrite(message, courseId);
     console.log("\n\nRewritten query:", query);
     const context = await SubtitleRetrieval.getContent(query, courseId);
